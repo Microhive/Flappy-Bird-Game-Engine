@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine\Input\Input.cpp" />
+    <ClCompile Include="Engine\GameEngine\GameEngine.cpp" />
+    <ClCompile Include="Engine\Input\InputBlackbox.cpp" />
+    <ClCompile Include="Engine\Entity\Entity.cpp" />
+    <ClCompile Include="Engine\Entity\Components\Collider.cpp" />
+    <ClCompile Include="Engine\Entity\Components\RigidBody.cpp" />
+    <ClCompile Include="Engine\Entity\Components\Transform.cpp" />
+    <ClCompile Include="Engine\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="Engine\ResourceManager\MusicResource.cpp" />
+    <ClCompile Include="Engine\Physics\Physics.cpp" />
+    <ClCompile Include="Engine\Cache\Cache.cpp" />
+    <ClCompile Include="Engine\ResourceManager\SoundResource.cpp" />
+    <ClCompile Include="Engine\Cache\CacheBlackBox.cpp" />
+    <ClCompile Include="Engine\Logger\LoggerBlackbox.cpp" />
+    <ClCompile Include="Engine\Logger\Logger.cpp" />
+    <ClCompile Include="Engine\Collision\Collision.cpp" />
+    <ClCompile Include="Engine\GUI\GUI.cpp" />
+    <ClCompile Include="Engine\ResourceManager\RenderResource.cpp" />
+    <ClCompile Include="Engine\ResourceManager\TextureResource.cpp" />
+    <ClCompile Include="Engine\Audio\AudioBlackbox.cpp" />
+    <ClCompile Include="Engine\Audio\AudioEngine.cpp" />
+    <ClCompile Include="Engine\Renderer\Render.cpp" />
+    <ClCompile Include="Engine\Renderer\RenderBlackbox.cpp" />
+    <ClCompile Include="Engine\Renderer\Texture.cpp" />
+    <ClCompile Include="Engine\Renderer\Window.cpp" />
+    <ClCompile Include="Engine\Scene\Scene.cpp" />
+    <ClCompile Include="Engine\Scene\SceneManager.cpp" />
+    <ClCompile Include="Engine\Entity\Components\SpriteRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Header.h" />
+    <ClInclude Include="Engine\Input\Input.h" />
+    <ClInclude Include="Engine\Input\Input_Interface.h" />
+    <ClInclude Include="Engine\GameEngine\GameEngine.h" />
+    <ClInclude Include="Engine\Input\InputBlackbox.h" />
+    <ClInclude Include="Engine\Entity\Entity.h" />
+    <ClInclude Include="Core\Point.h" />
+    <ClInclude Include="Engine\Entity\Components\Collider.h" />
+    <ClInclude Include="Engine\Entity\Components\Transform.h" />
+    <ClInclude Include="Core\Shape.h" />
+    <ClInclude Include="Engine\Entity\Components\Rigidbody.h" />
+    <ClInclude Include="Game\Startup.h" />
+    <ClInclude Include="Game\Scenes\Scene_1.hpp" />
+    <ClInclude Include="Engine\Entity\Components\SpriteRenderer.h" />
+    <ClInclude Include="Game\Scenes\Entities\Rigidbody\MyCoasdon.hpp" />
+    <ClInclude Include="Engine\Entity\Entity.h" />
+    <ClInclude Include="Engine\ResourceManager\BaseResource.h" />
+    <ClInclude Include="Engine\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="Core\Timer.h" />
+    <ClInclude Include="Engine\ResourceManager\MusicResource.h" />
+    <ClInclude Include="Engine\Physics\Physics.h" />
+    <ClInclude Include="Engine\Cache\Cache.h" />
+    <ClInclude Include="Engine\Cache\Cache_Interface.h" />
+    <ClInclude Include="Engine\ResourceManager\SoundResource.h" />
+    <ClInclude Include="Engine\ResourceManager\AudioResource.h" />
+    <ClInclude Include="Engine\Cache\CacheBlackBox.h" />
+    <ClInclude Include="Engine\Logger\Logger_Interface.h" />
+    <ClInclude Include="Engine\Logger\LoggerBlackbox.h" />
+    <ClInclude Include="Engine\Logger\Logger.h" />
+    <ClInclude Include="Engine\Collision\Collision.h" />
+    <ClInclude Include="Engine\GUI\GUI.h" />
+    <ClInclude Include="Engine\ResourceManager\RenderResource.h" />
+    <ClInclude Include="Engine\ResourceManager\TextureResource.h" />
+    <ClInclude Include="Engine\Audio\Audio.h" />
+    <ClInclude Include="Engine\Audio\Audio_Interface.h" />
+    <ClInclude Include="Engine\Audio\AudioBlackbox.h" />
+    <ClInclude Include="Engine\Audio\AudioEngine.h" />
+    <ClInclude Include="Engine\Renderer\Render.h" />
+    <ClInclude Include="Engine\Renderer\Render_Interface.h" />
+    <ClInclude Include="Engine\Renderer\RenderBlackbox.h" />
+    <ClInclude Include="Engine\Renderer\Texture.h" />
+    <ClInclude Include="Engine\Renderer\Window.h" />
+    <ClInclude Include="Engine\Scene\Scene.h" />
+    <ClInclude Include="Engine\Scene\SceneManager.h" />
+    <ClInclude Include="Engine\Camera\Camera.h" />
+    <ClInclude Include="Engine\Renderer\Animation.h" />
+    <ClInclude Include="Core\Box.h" />
+    <ClInclude Include="Game\Scenes\Scene_2.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\beat.wav" />
+    <Media Include="Assets\Audio\high.wav" />
+    <Media Include="Assets\Audio\low.wav" />
+    <Media Include="Assets\Audio\medium.wav" />
+    <Media Include="Assets\Audio\scratch.wav" />
+    <Media Include="Assets\Music\flappy.mp3" />
+    <Media Include="Assets\Audio\Die.wav" />
+    <Media Include="Assets\Audio\Fly.wav" />
+    <Media Include="Assets\Audio\Hit.wav" />
+    <Media Include="Assets\Audio\Point.wav" />
+    <Media Include="Assets\Audio\Swoosh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\background.png" />
+    <Image Include="Assets\Textures\spritesheet.png" />
+    <Image Include="Assets\Textures\flappy_bird_background_by_drunkvikings-d76jsuh.jpg" />
+    <Image Include="Assets\Textures\game-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Logs\Log (2015-02-28 16-07-43).txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Box" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAYAAAAAAEBAAAYAAAAAYAAAAEAAYAQ=</HashCode>
+      <FileName>Core\Box.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audio" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAECAAEAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Audio\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Audio\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Audio\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CacheBlackBox" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Cache\CacheBlackBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAQAQAAAABgBAAAAAMAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Camera\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAgAAQAAAAAAAAAAEAAAABCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Collision\Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAABAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\GUI\GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAAAACAAAAAEAABAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Logger\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoggerBlackbox" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAQAAAAAAAAAAAAAgAAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Logger\LoggerBlackbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger_Interface" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Logger\Logger_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAgAAAAAAAgAAAAIAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Renderer\Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Render" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAEAAAAQAAAIAQAABAAAAQAAAA=</HashCode>
+      <FileName>Engine\Renderer\Render.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderBlackbox" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAICAgQAQAAIAIAUAAAAAAIAAAAAAAAgAA=</HashCode>
+      <FileName>Engine\Renderer\RenderBlackbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Render_Interface" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Renderer\Render_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderResource" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAACIAIAAAAAACAIAAAAAACAgAA=</HashCode>
+      <FileName>Engine\ResourceManager\RenderResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundResource" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASAAABAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\ResourceManager\SoundResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAgAAAAAAAAAAAEAAAgBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Cache\Cache.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache_Interface" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Cache\Cache_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAABEAAACBAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Engine\Physics\Physics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseResource" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\ResourceManager\BaseResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audio_Interface" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Audio\Audio_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioBlackbox" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAiAAAAAAAAAAAAAAA0IAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Audio\AudioBlackbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgBYAAAAAAAAAAAAAAAAAYAEAAAAAYAE=</HashCode>
+      <FileName>Core\Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collider" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAIQARAAJkBBQAAAAAAAQAAQAAEIAAAA=</HashCode>
+      <FileName>Engine\Entity\Components\Collider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteRenderer" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAQAAAEABAMCQAAAAIAAAAAEAgIAQ=</HashCode>
+      <FileName>Engine\Entity\Components\SpriteRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAAAACAABEBAAAgQAAJEAEBAAAAAEAAAAAA=</HashCode>
+      <FileName>Engine\Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBody" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABCAAAAAAAAAAAABEAAIAAgECEAAgAQARCAAAAE=</HashCode>
+      <FileName>Engine\Entity\Components\Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIBCAEACQAAAAAAKAEAQCCAAAAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>Engine\Entity\Components\Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAAAAAAAgAAAAAAAIIAABAAAAAAA=</HashCode>
+      <FileName>Engine\GameEngine\GameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAgAAAQAAgAAJAAAhAAACABBAAoEAAAAQAgA=</HashCode>
+      <FileName>Engine\Scene\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAoAABQBAgAAAAAAAAAAAEAAAAgAABAAQAAA=</HashCode>
+      <FileName>Engine\Scene\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene_1" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQBAACEggACoQAgAQQACgAhEAAAAgAAICAgAAAAIAA=</HashCode>
+      <FileName>Game\Scenes\Scene_1.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioEngine" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEABAAAAAAAAAA0ABAAAIAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Engine\Audio\AudioEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAFACAAIIAACAAwAAEgQA=</HashCode>
+      <FileName>Engine\Input\Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input_Interface" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAgAAEAAA=</HashCode>
+      <FileName>Engine\Input\Input_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputBlackbox" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAAAAAAAABCAAEAAAAAAIICAABggAAEAIA=</HashCode>
+      <FileName>Engine\Input\InputBlackbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Startup" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game\Startup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAIAAAAAAgAAAAEAAIBAAgAAAQAAAACAAIABA=</HashCode>
+      <FileName>Engine\ResourceManager\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicResource" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAASAAAAAAAAAAQAQAAAAAAAAAA=</HashCode>
+      <FileName>Engine\ResourceManager\MusicResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAACAAAAAAACAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Engine\Renderer\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureResource" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAwAAAAACAAAAEAAAAAAIAAAAAAAAgAA=</HashCode>
+      <FileName>Engine\ResourceManager\TextureResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAgAAIQACAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Engine\Renderer\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ResourceType" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABBIAAAAAAAA=</HashCode>
+      <FileName>Engine\ResourceManager\BaseResource.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KeyCode" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAIAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Engine\Input\Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KeyState" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAI=</HashCode>
+      <FileName>Engine\Input\Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
